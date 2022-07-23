@@ -1,0 +1,324 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0 ;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.upper{
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  transition: 4s;
+  opacity: 0.7;
+}
+
+.upper: hover{
+background: #ff7f50;
+}
+
+
+
+
+
+header {
+  color: #FFF;
+  padding: 20px 4% 10px;
+  display: flex;
+  align-items: center
+  position: fixed;
+  top: 0;
+  background:  #D3D3D3;
+}
+
+
+
+a {
+   text-decoration: none;
+}
+
+
+nav {
+   margin: 0 0 0 auto;
+}
+
+
+
+.main-menu ul li {
+  text-align: center;
+}
+
+
+.main-menu ul li a {
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+}
+
+
+.main-menu ul li a:hover {
+  background: #ff7f50;
+  transition-property: background-color; 
+  transition-duration: .4s; 
+}
+
+.resizeimage img { width: 100%; }
+
+.main-vizyu {
+  padding-bottom: 80px;
+}
+
+
+h3 {
+  padding-left: 31px;
+  padding-bottom: 30px;
+  margin: 0px 35px 0px 0px;
+}
+
+
+
+p {
+  padding-left: 35px;
+  margin: 0px 35px 0px 0px;
+}
+
+
+ img {
+  width:100%;
+  max-width: 100%;
+  height: auto;
+}
+
+  
+.main-taitoru {
+  width: 100%;
+  padding: 30px;
+  margin: 10px auto;
+  max-width: 800px;
+  display: block;
+  padding-bottom: 100px;
+  margin: 0px 35px 0px 0px;
+}
+
+
+
+.posuta {
+  display: flex;
+  padding-bottom: 100px;
+}
+
+
+.posuta li {
+   width: 100%;
+   padding: 0px 20px 0px 20px;
+}
+
+
+.syoukai {
+   padding-left: 13%;
+}
+
+
+.video-demo {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+/*
+.video-demo video {
+  margin: 10px auto;
+  max-width: 640px;
+  display: block;
+}
+*/
+
+
+
+.syoukai-2 {
+  padding-bottom: 30px;
+}
+ 
+ 
+ 
+.sozai {
+  padding-bottom: 30px;
+  padding-left: 60px;
+  margin: 0px 60px 0px 60px;
+  display: flex;
+}
+ 
+.sozai2 {
+  padding-bottom: 100px;
+  padding-left: 60px;
+  margin: 0px 60px 0px 60px;
+  display: flex;
+} 
+
+.sozai li {
+  width: 200px;
+  padding: 20px;
+}
+
+.sozai2 li {
+  width: 200px;
+  padding: 10px;
+}
+ 
+ 
+section {
+  background: #DCDCDC;
+  flex: 3;
+  padding: 20px;
+}
+
+
+article {
+  background: white;
+  padding: 20px;
+  margin-bottom: 10px;  
+}
+
+
+
+
+section{
+  padding: 40px;
+  height: 500px;
+  margin-bottom: 850px;
+  background-color: #FFF;
+}
+
+  section h1{
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    margin-bottom: 50px;
+  }
+
+
+
+
+
+footer {
+  background: #D3D3D3;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.fade,
+.fade2 {
+  width: 200px;
+  margin: 20px;
+}
+
+.row {
+  position: relative;
+}
+
+#move {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 100px);
+}
+
+.fade2 {
+  opacity: .2;
+  transition: opacity, 0.5s;
+}
+
+.fade2:hover {
+  opacity: 3;
+}
+
+
+
+
+@media all and (min-width: 600px) { 
+  .main-menu ul { 
+    display: flex; 
+  } 
+
+
+  article img { 
+    max-width: 600px; 
+    display: block; 
+    margin: 10px auto; 
+  } 
+  
+  .main-menu ul li { 
+    text-align: left; 
+  } 
+
+  main { 
+    display: flex; 
+  } 
+
+  .sub-menu ul li { 
+    text-align: left; 
+  } 
+} 
+
+
+
+
+@media all and (min-width: 1025px) { 
+  #wrap {
+    width: 84%; 
+    max-width: 1280px; 
+  } 
+  header {
+  color: #FFF;
+  padding: 20px 4% 10px;
+  display: flex;
+  align-items: center
+  top: 0;
+  background:   #D3D3D3;
+  ;
+}
+
+
+a {
+   text-decoration: none;
+}
+
+
+nav {
+   margin: 0 0 0 auto;
+}
+
+
+
+.main-menu ul li {
+  text-align: center;
+}
+
+
+.main-menu ul li a {
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+}
+
+
+.main-menu ul li a:hover {
+  background: #ff7f50;;
+}
+
+ 
+ }
+  
+} 
