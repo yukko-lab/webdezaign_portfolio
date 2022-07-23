@@ -8,6 +8,12 @@
 }
 
 
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
 .upper{
   width: 70px;
   height: 70px;
@@ -18,11 +24,12 @@
   opacity: 0.7;
 }
 
-
-#wrap {
-  width: 100%;
-  margin: 0 auto;
+.upper: hover{
+background: #ff7f50;
 }
+
+
+
 
 
 header {
@@ -34,6 +41,7 @@ header {
   top: 0;
   background:  #D3D3D3;
 }
+
 
 
 a {
@@ -60,97 +68,75 @@ nav {
 
 
 .main-menu ul li a:hover {
-  background: #ff7f50;;
+  background: #ff7f50;
+  transition-property: background-color; 
+  transition-duration: .4s; 
 }
 
 .resizeimage img { width: 100%; }
 
-
-main-header imag {
-  width: 84%;
-  box-sizing: border-box;
-}
-
-img {
-width:100%;
-max-width: 100%;
-height: auto;
+.main-vizyu {
+  padding-bottom: 80px;
 }
 
 
-section {
-  background:  white;
-  flex: 3;
-  padding: 20px;
-}
-
-
-article {
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;  
-}
-
-
-article img { 
-
-  width: 100%; 
-
-  margin: 10px 0; 
-
-  box-sizing: border-box; 
-}
-
-
-section{
-  padding: 40px;
-  height: 500px;
-  margin-bottom: 40px;
-  background-color:  white;
-}
-  section h1{
-    margin-bottom: 12px;
-  }
-  section p {
-    margin-bottom: 40px;
-  }
-
-aside {
-  background: #DCDCDC;
-  flex: 1;
+.sub-menu ul{
+  display: flex;
 }
 
 
 .sub-menu {
-  background: #DCDCDC; 
+  padding-bottom: 200px;
 }
 
-
-.sub-menu ul li {
-  text-align: center;
-}
-
-
-.sub-menu ul li a {
-  color: #FFF;
-  display: block;
-  padding: 10px 20px;
+.sub-menu ul li{
+   padding: 7px 7px 7px 7px;
 }
 
 
 .sub-menu ul li a:hover {
   background: #ff7f50;
+  transition-property: background-color; 
+  transition-duration: .4s; 
 }
 
-h2 {
- padding-bottom: 10px;
+
+ img {
+  width:100%;
+  max-width: 100%;
+  height: auto;
 }
+
+article {
+    padding-bottom: 500px;
+}
+
+
+h2 { 
+    padding-top: 30px;
+    margin-bottom: 40px;
+    color: #FF570D;
+    text-align: center;
+    font-size: 27px;
+  }
+  
+
+  
+p {
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 30px;
+    padding: 5px;
+  }
+
+
+
 
 
 footer {
   background: #D3D3D3;
   color: #FFF;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -207,6 +193,7 @@ footer {
     text-align: left; 
   } 
 } 
+
 
 
 

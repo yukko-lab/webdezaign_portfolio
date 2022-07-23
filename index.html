@@ -1,13 +1,17 @@
 <!DOCTYPE html> 
 <html lang="ja"> 
+
+ 
  
 <head> 
   <meta charset="UTF-8">
-  <title>Sample Site</title> 
+  <title>PORTFOLIO</title> 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="script.js" defer></script>
-  <metaname="viewport" content="width=device-width, initial-scale=1"> 
-  <link rel="stylesheet" href="./css/style.css"> 
+  <script src="js/lightbox.min.js"></script>
+  <metaname="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/lightbox.min.css" > 
+  <link rel="stylesheet" href="css/style.css"> 
   
 </head> 
  
@@ -20,49 +24,55 @@
     <nav class="main-menu">
      <ul> 
 
-         <li><a href="#">HOME</a></li> 
+         <li><a href="">HOME</a></li> 
  
          <li><a href="index-illust.html">ARTWORK</a></li> 
 
          <li><a href="index-gamelab.html">GAMELAB</a></li> 
- 
-        
+  
       
        </ul>
       </nav> 
     </header> 
     
-    <div class="main-header">
-    <p><img src="images2/header.png" alt="header"></p>
-    </div>
- 
-    <main> 
-      <section>
-      <article> 
-
-          <h2>このサイトは</h2> 
-
-          <p>この大学２年間で描いたイラストやグラフィック、参加しているプロジェクトでの成果物紹介します。<br>作品ページへは上記ヘッダーから飛んでください。</p> 
-
-        </article>
-      </section> 
-    </main> 
+    <div class="main-vizyu">
+    <img src="images2/header.png" alt="header">
+     </div>
+     
+     <article> 
+    <h2>このサイトは</h2>
     
-    <div id="wrap">
+    <p>この大学２年間で描いたイラストやグラフィック、参加しているプロジェクトでの成果物紹介します。<br>作品ページへは上記ヘッダーから飛んでください。</p>
+   
+    <hr size="1" width="1050" align="center" noshade>
+    
+    <h2>自己紹介</h2>
+    
+     <p>福岡の大学2年生　　お絵描きとゲームが趣味<br>WEBデザイナーに興味あり！</p>
+   
+    </article> 
+          
+       </div>
+       
+     <div id="wrap">
      <nav class="upper">
-       <li><a href="#main-menu"><img src="images/bottn.png" alt="TOPへ"></a></li>
+       <li><a href="#header"><img src="images/bottn.png" alt="TOPへ"></a></li>
        </nav>
        </div>
+       
  
     <footer>
-    <p>&copy; SampleSite </p> 
+    <p>&copy; PORTFOLIO </p> 
     </footer> 
     
-<script>$(".upper").click(function(){
-$('html,body').animate({'scrollTop':0},500);
-});</script>
+
  
   </div><!-- #wrap-->
+    
+    <script>$(".upper").click(function(){
+$('html,body').animate({'scrollTop':0},500);
+});</script>
+    
     
 </body> 
 </html> 
