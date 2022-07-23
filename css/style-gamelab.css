@@ -129,19 +129,19 @@ p {
    padding-left: 13%;
 }
 
-
+/*
 .video-demo {
   text-align: center;
   padding: 20px;
   padding-bottom: 100px;
 }
-/*
+*/
 .video-demo video {
   margin: 10px auto;
   max-width: 640px;
   display: block;
 }
-*/
+
 
 
 
