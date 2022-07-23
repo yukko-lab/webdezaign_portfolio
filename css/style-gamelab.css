@@ -140,6 +140,8 @@ p {
   margin: 10px auto;
   max-width: 640px;
   display: block;
+  padding: 20px;
+  padding-bottom: 100px;
 }
 
 
